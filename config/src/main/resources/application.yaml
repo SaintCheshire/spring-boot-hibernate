@@ -3,7 +3,7 @@ spring:
     console:
       enabled: true
   datasource:
-    url: jdbc:h2:D:/IdeaProjects/spring-boot-hibernate/database/src/main/resources/countries;MV_STORE=false;DB_CLOSE_DELAY=-1;
+    url: jdbc:h2:./../database/src/main/resources/countries;MV_STORE=false;DB_CLOSE_DELAY=-1;
     driver-class-name: org.h2.Driver
     username: sa
     password:
